@@ -69,7 +69,6 @@ body {
   font-weight: lighter;
   color: #585252;
   line-height: 1.4;
-  /* letter-spacing: 1.9; */
 }
 .hero-btn {
   padding: 1.2em 2.5em;
@@ -117,12 +116,10 @@ body {
 }
 
 .about {
-  /* margin-top: 10rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: fit-content;
-  /* height: 100vh; */
   padding: 2rem;
 }
 .about-img img {
@@ -176,11 +173,7 @@ body {
   font-weight: 100;
 }
 .featured-heading p {
-  /* margin: 2rem 0rem; */
   font-family: "Gilroy-Regular";
-  /* font-weight: lighter; */
-  /* color: #585252; */
-  /* line-height: 1.5; */
   font-size: 1em;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -295,7 +288,6 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center; 
-  /* gap: 1px; */
 }
 .testimonials img {
   width: 100px;
@@ -307,5 +299,4 @@ body {
   font-family: "Gilroy-Regular";
   color: #585252;
   line-height: 2;
-  /* margin-bottom: 2rem; */
 }
