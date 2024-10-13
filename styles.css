@@ -586,3 +586,77 @@ body {
   text-transform: uppercase;
   font-style: italic;
 }
+.companies {
+  width: 100%;
+  margin-top: 2rem;
+  height: 100px;
+}
+.comp-images {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #dee2e6 !important;
+  border-top: 1px solid #dee2e6 !important;
+}
+.selected-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 10%;
+  height: 100%;
+  position: relative;
+  transition: opacity 0.3s ease-in-out;
+}
+.selected-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.comp-img1 {
+  background-image: url("./img/niferzene.png");
+}
+.comp-img2 {
+  background-image: url("./img/martan.png");
+}
+.comp-img3 {
+  background-image: url("./img/furnicare.png");
+}
+.comp-img4 {
+  background-image: url("./img/makefixtures.png");
+}
+.comp-img5 {
+  background-image: url("./img/kg91.png");
+  width: 5%;
+  height: 60%;
+}
+
+.comp-img1::before {
+  background-image: url("./img/niferzene1.png");
+}
+.comp-img2::before {
+  background-image: url("./img/martan1.png");
+}
+.comp-img3::before {
+  background-image: url("./img/furnicare1.png");
+}
+.comp-img4::before {
+  background-image: url("./img/makefixtures1.png");
+}
+.comp-img5::before {
+  background-image: url("./img/kg911.png");
+}
+
+.selected-img:hover::before {
+  opacity: 1;
+}
